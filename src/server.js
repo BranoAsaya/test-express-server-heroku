@@ -8,6 +8,5 @@ app.get("*",(req,res)=>{
 res.send("Hello world")
 })
 
-
-
+console.log("test");
 app.listen(PORT)
