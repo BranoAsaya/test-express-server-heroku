@@ -1,6 +1,6 @@
+
 const express = require("express"),
-   app = express(),
-  PORT = process.env.PORT, ;
+   app = express() ;
 
 require("dotenv").config()
 
@@ -9,4 +9,5 @@ res.send("Hello world")
 })
 
 console.log("test");
+const PORT = process.env.PORT
 app.listen(PORT)
